@@ -1,0 +1,42 @@
+
+.max-size-card{
+    max-width: 77%;
+}
+
+.img-config{
+    max-width: 40rem;
+  }
+  
+  .indexCarouselContainer{
+    max-height: 37rem;
+  }
+  
+  .indexProductsContainer{  
+    max-height: 10px;
+  }
+
+.discount{
+  color: red;
+  text-decoration: line-through;
+  padding-left: 0.5rem;
+}
+
+.price{
+  color: #006400;
+}
+
+.pagination li a{
+ text-decoration: none;
+ color: black;
+}
+
+.pagination li a:hover{
+  color: white;
+  background-color: black;
+}
+
+.btn-index{
+  background-color: $black;
+  color: $white;
+  border: transparent;
+}

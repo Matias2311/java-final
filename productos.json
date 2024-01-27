@@ -1,0 +1,15 @@
+[
+        {
+            "id": 7,
+            "nombre": "hoddie",
+            "precio": 85,
+            "imagen": "assets/hoddie-black.png"
+        },
+        {
+            "id": 8,
+            "nombre": "remera",
+            "precio": 45,
+            "imagen": "assets/Remera-Algodon.png"
+        }
+    ]
+    

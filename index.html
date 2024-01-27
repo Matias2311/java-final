@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+
+    <meta name="description" content="Compras en línea seguras y confiables en Safe Market. Descubre productos de calidad y transacciones protegidas.">
+    <title>Safe Market</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script defer src="JS/main.js"></script>
+  </head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">SAFE MARKET</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./pages/products.html">PRODUCTOS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./pages/register.html">REGISTRARSE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./pages/security polities.html">POLITICA Y SEGURIDAD</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./pages/social medias.html">NUESTRAS REDES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./pages/faq.html">PREGUNTAS FRECUENTES</a>
+                  </li>
+                </ul>
+
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar producto" aria-label="Search">
+                  <button class="src-btn btn btn-outline" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+  <!--Carousel-->
+    <div id="carouselExampleDark" class="carousel carousel slide">
+      <div class="carousel-inner">
+        <div class="indexCarouselContainer carousel-item active" data-bs-interval="10000">
+          <img src="./assets/pexels-destiawan-nur-agustra-1113667.jpg" class="block w-100" alt="Mujer con skate modelando su ropa">
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+      </div>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </div>
+  <!--Texto de ofertas-->
+    <div class="titulos container-fluid">
+      <h5 class="text-center">OFERTAS</h5>
+    </div>
+  <!--Productos en oferta-->
+  <div class="container">
+    <div class="row">
+        <!-- Elementos generados a partir del JSON -->
+        <main id="items" class="col-sm-8 row"></main>
+   <!-- Las tarjetas del json.local -->
+<div id="tarjetasProductos" class="col-sm-8 row"></div>
+      <div class="container">
+        <!-- Carrito -->
+        <aside class="col-sm-8">
+            <h2>Carrito</h2>
+            <!-- Elementos del carrito -->
+            <ul id="carrito" class="list-group"></ul>
+            <hr>
+            <!-- Precio total -->
+            <p class="text-right">Total: <span id="total"></span>$</p>
+            <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+        </aside>
+    </div>
+  </div>
+  </nav>
+  <script>
+</script>
+  <!--Footer-->
+    <footer class="container-fluid fixed-bottom">
+        <p>Derechos de autor © 2023 Safe Market</p>
+    </footer>
+  </body>
+</html>
+

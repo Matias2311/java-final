@@ -1,0 +1,9 @@
+@mixin btnMainColors($white, $black){
+    background-color: $black;
+    color: $white;
+}
+
+@mixin btnSecondaryColors($white, $black){
+    background-color: $white;
+    color: $black
+}
